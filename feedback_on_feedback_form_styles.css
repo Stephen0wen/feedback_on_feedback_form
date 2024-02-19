@@ -1,0 +1,65 @@
+main {
+    background-color: rgba(30, 20, 20, 0.8);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-image: url(https://live.staticflickr.com/2852/8913134033_e2e33087f4_h.jpg);
+    max-width: 500px;
+    margin: auto;
+    padding: 50px;
+  }
+  
+  h1, h2 {
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 30px;
+  }
+  
+  p {
+    margin: 0;
+    font-family: sans;
+    font-size: 12;
+  }
+  
+  input[type="text"], 
+  input[type="number"],
+  input[type="email"] {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"] {
+    display: inline-block;
+  }
+  
+  .inline {
+    display: block;
+  }
+  
+  fieldset {
+    margin-top: 25px;
+    margin-bottom: -15px;
+    border: 0;
+    }
+  
+  .boxes {
+      text-align: left;
+      margin-left: 40%;
+    }
+  
+  .textarea {
+    margin-top: 25px;
+  }
+  
+  textarea {
+    width: 80%;
+  }
+  

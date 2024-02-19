@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta chartype="utf-8">
+    <title>Feedback on Feedback</title>
+    <link rel="stylesheet" href="feedback_on_feedback_form_styles.css">
+  </head>
+  <main>
+    <body>
+      <h1 id="title">Feedback on Feedback</h1>
+      <p id="description">Please tell us your experience of feedback in your workplace.</p>
+      <form id="survey-form">
+        <section>
+          <h2>About Yourself</h2>
+          <label id="name-label" for="name">First Name 
+            <input id="name" name="name" type="text" placeholder="John" required></input>
+          </label>
+          <label id="last-name-label" for="last-name">Last Name 
+            <input id="first-name" name="first-name" type="text" placeholder="Smith" required></input>
+          </label>
+          <label id="number-label" for="yob">Year of Birth (optional)
+            <input id="number" name="yob" type="number" min="1900" max="2024" placeholder="1950"></input>
+          </label>
+          <label id="email-label" for="email">Email Address 
+            <input id="email" name="email" type="email" placeholder="john.smith@example.com" required></input>
+          </label>
+        </section>
+        <section>
+          <h2>Your Experience of Feedback</h2>
+          <label>Do you recieve regular feedbck?
+            <select id="dropdown">
+              <option value=""></option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </label>
+          <fieldset>
+            <legend>Who provides you with the majority of your feedback?</legend>
+            <label for="manager>" class="inline boxes"><input id="manager" type="radio" name="who" value="manager" required checked> Manager</label>
+            <label for="colleague>" class="inline boxes"><input id="colleague" type="radio" name="who" value="colleague" required> Colleague</label>
+            <label for="yourself>" class="inline boxes"><input id="yourself" type="radio" name="who" value="yourself" required> Yourself</label>
+            <label for="automated>" class="inline boxes"><input id="automated" type="radio" name="who" value="automated" required> Automated</label>
+            <label for="client>" class="inline boxes"><input id="client" type="radio" name="who" value="client" required> Client</label>   
+          </fieldset>
+          <fieldset>
+            <legend>What kinds of feedback do you recieve?</legend>
+            <label for="written" class="inline boxes"><input id="written" type="checkbox" name="what" value="written"> Written</label>
+            <label for="verbal" class="inline boxes"><input id="verbal" type="checkbox" name="what" value="verbal"> Verbal</label>
+            <label for="formal" class="inline boxes"><input id="formal" type="checkbox" name="what" value="formal"> Formal</label>
+            <label for="informal" class="inline boxes"><input id="informal" type="checkbox" name="what" value="informal"> Informal</label>
+            <label for="positive" class="inline boxes"><input id="positive" type="checkbox" name="what" value="positive"> Positive</label>
+            <label for="negative" class="inline boxes"><input id="negative" type="checkbox" name="what" value="negative"> Negative</label>
+            <label for="constructive" class="inline boxes"><input id="constructive" type="checkbox" name="what" value="constructive"> Constructive</label>
+            <label for="formative" class="inline boxes"><input id="formative" type="checkbox" name="what" value="formative"> Formative</label>
+            <label for="coaching" class="inline boxes"><input id="coaching" type="checkbox" name="what" value="coaching"> Coaching</label>
+          </fieldset>
+        </section>
+        <section class="textarea">
+          <label for="comments">Please add any further comments about feedback
+            <textarea id="comments" name="comments" rows="3"></textarea>
+          </label>
+        </section>
+        <button id="submit" type="submit"> Submit</button>
+      </form>
+    </body>
+  </main>
