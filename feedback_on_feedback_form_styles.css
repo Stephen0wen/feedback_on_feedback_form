@@ -8,9 +8,11 @@ main {
   
   body {
     background-image: url(https://live.staticflickr.com/2852/8913134033_e2e33087f4_h.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     max-width: 500px;
     margin: auto;
-    padding: 50px;
+    padding: 40px;
   }
   
   h1, h2 {
