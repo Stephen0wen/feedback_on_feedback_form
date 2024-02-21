@@ -1,6 +1,6 @@
 main {
     background-color: rgba(30, 20, 20, 0.8);
-    color: rgb(255, 255, 255);
+    color: white;
     padding: 10px;
     text-align: center;
     font-family: sans-serif;
@@ -64,4 +64,20 @@ main {
   textarea {
     width: 80%;
   }
-  
+
+  button {
+    background-color: rgba(30, 20, 20, 0.8);
+    border: 1px solid white;
+    color: white;
+  }
+
+  button:hover {
+    background-color: white;
+    border: 1px solid rgba(30, 20, 20, 0.8);
+    color: rgba(30, 20, 20, 0.8);
+  }
+
+input[type="radio"], input[type="checkbox"] {
+  accent-color: #ff5100;
+}
+
